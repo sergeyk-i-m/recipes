@@ -1,0 +1,75 @@
+.heading {
+    display: flex;
+    justify-content: center;
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+
+.input {
+    display: flex;
+}
+
+.search {
+    flex: 1;
+    padding: 3px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    border-radius: 7px;
+    border: none;
+    margin: 5px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    align-self: center;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.source {
+    margin: 0px 0px 0px 10px;
+    color: green;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.name {
+    align-self: center;
+    font-family: 'Kaushan Script', cursive;
+    text-decoration: none;
+    font-size: 30px;
+    color: #212A3E;
+}
+
+#body {
+    background-color: #9BA4B5;
+}
+
+.card-body {
+    width: 300px;
+}
+
+#btn1 {
+    background-color: #212A3E;
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    width: 300px;
+}
